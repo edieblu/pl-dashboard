@@ -1,0 +1,47 @@
+/* custom font  */
+@font-face {
+  font-family: "JunctionLight";
+  src: url("./fonts/junction.light-webfont.woff2") format("woff2"),
+    url("./fonts/junction.light-webfont.woff") format("woff");
+}
+
+body {
+  padding: 60px;
+  font-size: 16px;
+  letter-spacing: 0.7px;
+  font-family: "JunctionLight";
+}
+
+.box {
+  min-width: 200px;
+  /* border: 2px solid goldenrod; */
+  margin: 20px;
+  padding: 10px;
+}
+
+.center-block {
+  background-color: rgba(236, 236, 236, 0.5);
+}
+
+.write {
+  height: 100px;
+}
+
+.dashboard > * {
+  padding: 5px;
+}
+
+.project-map {
+  width: 100px;
+  height: 100px;
+}
+
+.list-group > a {
+  border: none;
+}
+
+.submit {
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
