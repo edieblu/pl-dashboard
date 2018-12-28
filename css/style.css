@@ -4,27 +4,70 @@
   src: url("./fonts/junction.light-webfont.woff2") format("woff2"),
     url("./fonts/junction.light-webfont.woff") format("woff");
 }
-
-body {
-  padding: 60px;
+* {
+  box-sizing: border-box;
+  font-family: "JunctionLight";
+  color: #373d3f;
   font-size: 16px;
   letter-spacing: 0.7px;
-  font-family: "JunctionLight";
+  margin: 0;
+}
+body {
+  background-color: rgb(252, 252, 252);
+}
+
+.container {
+  position: relative;
+  width: 80%;
+  margin-top: 60px;
 }
 
 .box {
   min-width: 200px;
-  /* border: 2px solid goldenrod; */
   margin: 20px;
   padding: 10px;
 }
 
+.list-group-item {
+  border: none;
+  background-color: rgb(252, 252, 252);
+  font-size: 14px;
+}
+
+#all-topics {
+  top: 15px;
+}
+
+a h3,
+.box > h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
 .center-block {
-  background-color: rgba(236, 236, 236, 0.5);
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  border: 1px solid rgb(226, 226, 226);
+}
+a.activity-label,
+.x-button {
+  color: rgb(148, 148, 148);
+}
+
+.close-activity {
+  float: right;
+}
+
+.blog {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 30px;
 }
 
 .write {
   height: 100px;
+}
+.write-input {
+  color: rgb(148, 148, 148);
 }
 
 .dashboard > * {
@@ -32,8 +75,7 @@ body {
 }
 
 .project-map {
-  width: 100px;
-  height: 100px;
+  width: 175px;
 }
 
 .list-group > a {
@@ -44,4 +86,8 @@ body {
   float: right;
   margin-right: 20px;
   margin-top: 10px;
+}
+
+.latest-projects {
+  padding-top: 0;
 }
