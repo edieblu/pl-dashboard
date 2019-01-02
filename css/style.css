@@ -34,10 +34,6 @@ body {
   font-size: 14px;
 }
 
-#all-topics {
-  top: 15px;
-}
-
 a h3,
 .box > h3 {
   font-size: 18px;
@@ -90,4 +86,12 @@ a.activity-label,
 
 .latest-projects {
   padding-top: 0;
+}
+
+.q-action {
+  padding: 20px 20px 20px 0;
+  color: #373d3f;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
 }
