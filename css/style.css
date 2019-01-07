@@ -75,6 +75,15 @@ a.activity-label,
   color: rgb(148, 148, 148);
 }
 
+.cta-parent {
+  display: flex;
+}
+
+.cta {
+  margin: 5px;
+  padding: 5px 20px;
+}
+
 .dashboard > * {
   padding: 5px;
 }
